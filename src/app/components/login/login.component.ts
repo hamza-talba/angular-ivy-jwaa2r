@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators, NgForm } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { from, of, Subscription } from 'rxjs';
-import { delay, switchMap, tap } from 'rxjs/operators';
+import { of, Subscription } from 'rxjs';
+import { delay, switchMap } from 'rxjs/operators';
 @Component({
   selector: 'login',
   templateUrl: './login.component.html',
